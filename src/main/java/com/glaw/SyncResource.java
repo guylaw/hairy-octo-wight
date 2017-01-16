@@ -41,6 +41,7 @@ public class SyncResource {
     
     private String marshall(Customer customer){
       JAXBContext jaxbContext;
+      //try gitub
       Marshaller jaxbMarshaller;
       try {
         CreateExemptionCertificate cc = ...;
