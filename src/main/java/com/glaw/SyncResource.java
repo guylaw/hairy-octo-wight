@@ -1,5 +1,9 @@
 package com.glaw;
 
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Arrays;
+
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
@@ -39,26 +43,26 @@ public class SyncResource {
           
     }
     
-    private String marshall(Customer customer){
-      JAXBContext jaxbContext;
-      //try gitub
-      Marshaller jaxbMarshaller;
-      try {
-        CreateExemptionCertificate cc = ...;
-        JAXBContext context = JAXBContext.newInstance(CreateExemptionCertificate.class);
-        Marshaller m = context.createMarshaller();
-        m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
-
-        StringWriter sw = new StringWriter();
-        m.marshal(cc, sw);
-
-        String result = sw.toString();
-        // TODO Auto-generated catch block
-        e.printStackTrace();
-      } catch (JAXBException e) {
-        // TODO Auto-generated catch block
-        e.printStackTrace();
-      }
-      return "";;
-    }
+//    private String marshall(Customer customer){
+//      JAXBContext jaxbContext;
+//      //try gitub
+//      Marshaller jaxbMarshaller;
+//      try {
+//        CreateExemptionCertificate cc = ...;
+//        JAXBContext context = JAXBContext.newInstance(CreateExemptionCertificate.class);
+//        Marshaller m = context.createMarshaller();
+//        m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
+//
+//        StringWriter sw = new StringWriter();
+//        m.marshal(cc, sw);
+//
+//        String result = sw.toString();
+//        // TODO Auto-generated catch block
+//        e.printStackTrace();
+//      } catch (JAXBException e) {
+//        // TODO Auto-generated catch block
+//        e.printStackTrace();
+//      }
+//      return "";;
+//    }
 }
