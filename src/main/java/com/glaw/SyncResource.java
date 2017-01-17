@@ -1,22 +1,10 @@
 package com.glaw;
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.Arrays;
-
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
-import javax.xml.bind.PropertyException;
-
-import com.sun.xml.internal.ws.util.xml.ContentHandlerToXMLStreamWriter;
-
-import sun.net.www.protocol.file.Handler;
 
 /**
  * Root resource (exposed at "myresource" path)
